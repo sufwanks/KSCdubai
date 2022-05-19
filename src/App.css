@@ -1,0 +1,70 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+/* Global Variable */
+:root {
+  --main: #5d5ff3;
+  --black: #000;
+  --white: #fff;
+  font-family: 'Poppins', sans-serif;
+
+  --pc-width: 75%;
+  --tab-width: 90%;
+  --phone-width: 100%;
+}
+* {
+  transition: .5s;
+  font-family: var(--font_family);
+}
+*::selection {
+  background: var(--main);
+  color: var(--white) !important;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+html::-webkit-scrollbar-track {
+  background: var(--black);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.btn {
+  width: 300px;
+  background: var(--main);
+  color: #fff !important;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+.btn:hover {
+  letter-spacing: 2px;
+  width: 310px;
+}
+.content {
+  text-align: center;
+  margin: 50px auto;
+}
+.content h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.content h6 span {
+  font-size: 55px;
+  font-weight: 900;
+  color: var(--main);
+}
+.content p {
+  font-size: 12px;
+}
+
+body {
+  background: linear-gradient(-45deg, #EE7752,  #23A6D5, #23D5AB);    min-height: 100vh;
+
+
+}

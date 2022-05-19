@@ -1,0 +1,63 @@
+.slide {
+    position: relative;
+
+}
+
+.slide img {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    opacity: 80%;
+
+}
+
+.slide h6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(63, 57, 148);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h4 {
+    text-align: center;
+    color: rgb(63, 57, 148);
+    font-size: 30px;
+    font-weight: 600;
+    padding: 30px;
+}
+
+p {
+    line-height: 26px;
+    padding: 10px;
+}
+
+.btn-two {
+    font-size: 14px;
+    display: inline-block;
+    color: #000;
+    padding: 13px 19px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 1px;
+    outline: none;
+    border: 2px solid #0e296a;
+    background-color: #FFF;
+    transition: .3s;
+    box-shadow: inset 0px 0px 0px 0px #0e296a, inset 0px 0px 0px 0px #0e296a;
+}
+
+.img-fluid {
+    border-radius: 20px;
+    object-fit: fill;
+    
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
